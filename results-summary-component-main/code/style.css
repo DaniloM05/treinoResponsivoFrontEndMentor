@@ -1,0 +1,144 @@
+:root{
+--background-blue: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+--circle-gradient: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+}
+/* font-family: 'Hanken Grotesk', sans-serif; */
+
+.header{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-image: var(--background-blue);
+    height: 47vh;
+    border-radius: 0 0 8% 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.resultado{
+    margin-top: 3vh;
+    font-size: 1.5rem;
+    color: var(--Light-lavender);
+}
+
+.bignum{
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--White);
+}
+
+.great{
+    font-size: 1.5rem;
+    color: var(--White);
+}
+
+.numtxt{
+    color: var(--Light-lavender);
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.circulo{
+    background-image: var(--circle-gradient);
+    border-radius: 100%;
+    width: 40%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    margin-bottom: 1vh;
+}
+
+.txt{
+    width: 70vw;
+    padding-bottom: vh;
+    color: var(--Light-lavender);
+    opacity: 0.8;
+    text-align: center;
+}
+
+.main{
+   font-family: 'Hanken Grotesk', sans-serif;
+   font-weight: 500;
+   margin: 3.5vh 10vw;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.sum-title{
+    padding-bottom: 2vh;
+    font-size: 1.2rem;
+}
+.imgtxt{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.sum-itens{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#reaction{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+#memory{
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+#verbal{
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+#visual{
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+#reactiontxt{
+    color: hsl(0, 100%, 67%);
+}
+
+#memorytxt{
+    color: hsl(39, 100%, 56%);
+}
+
+#verbaltxt{
+    color: hsl(166, 100%, 37%);
+}
+
+#visualtxt{
+    color: hsl(234, 85%, 45%);
+}
+
+.strong{
+    opacity: 0.5;
+}
+
+.continue-btn{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 6%;
+    text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    color: var(--White);
+    font-size: 1.05rem;
+}
